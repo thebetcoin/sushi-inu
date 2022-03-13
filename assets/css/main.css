@@ -1,0 +1,80 @@
+// Media Query Mixin
+@mixin breackpoint ($breackpoint) {
+    @media screen and (max-width: $breackpoint) {
+        @content;
+    }
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+    
+}
+
+body{
+    font-family: montserrat, sans-serif ;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+     min-height: 100vh;
+
+     background-color: #ff1616;
+     background-size: cover;
+     background-position: center ;
+     position: relative;
+     &:after {
+         position: absolute;
+         content:'';
+         display:block;
+         top: 0;
+         left: 0;
+         right: 0;
+         bottom: 0;
+         z-index: 0;
+         background-color: rgba(34,34,34,0.5);
+        
+     }
+     .content{
+         position: relative
+         z-index: 1;
+     }
+}
+
+h1{
+    color: #ff1616 ;
+    font-size: 65px;
+    font-weight: 900;
+
+    span {
+        font-weight: 400;
+    }
+    @include breackpoint(480px) {
+        font-size: 36px;
+    }
+}
+
+h2{
+    color: #ff1616 ;
+    font-size: 30px;
+    font-weight: 900;
+    
+    text-align: center;
+    
+    
+    @include breackpoint(480px) {
+        font-size: 56px;
+    }
+}
+.countdown {
+    color: rgb(0, 0, 0) ;
+    font-size: 45px;
+    font-weight: 400;
+    align-items: center;
+    text-align: center;
+    
+}

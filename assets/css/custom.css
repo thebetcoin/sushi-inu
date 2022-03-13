@@ -1,0 +1,172 @@
+/*===== default css  =====*/
+html{
+  scroll-behavior: smooth;
+}
+body{
+	padding: 0;
+	margin: 0;
+
+}
+
+/*=====nav section css =====*/
+.navbar-light .navbar-nav .nav-link{
+   color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+}
+.custom-nav-details a:hover{
+        color: #f00c0c !important;
+    }
+/*=====section css =====*/
+#about{
+	padding: 60px 0px 60px 0px;
+	background: #333333;
+}
+#documents{
+	padding: 50px 0px 60px 0px;
+	background: #000000;
+}
+.text-gold{
+	color: #FF1616;
+	text-align: center;
+}
+#roadmap{
+	padding: 50px 0px 0px 0px;
+	background: #333333;
+}
+#gift{
+	padding: 50px 0px 60px 0px;
+	background: #000000;
+}
+#tokenomics{
+	padding: 50px 0px 35px 0px;
+	background: #333333;
+}
+.tok-box{
+	padding: 30px 10px 30px 15px;
+	margin-bottom: 15px;
+}
+.tok-box h2{
+	color: #FF1616;
+}
+.tok-box h3{
+	color: #FF1616;
+}
+#buy{
+	padding: 50px 0px 70px 0px;
+	background: #000000;
+}
+#howto p {
+    color: #bababa;
+}
+#howto p a {
+	font-weight: 500;
+    color: #FF1616;
+}
+.how-to-bg{
+	background: #202020;
+	padding: 40px 10px 40px 10px;
+	border: 1px solid #FF1616;
+	border-radius: 5px;
+}
+
+#partnars{
+	padding: 50px 0px 80px 0px;
+	background: #333333;
+}
+
+.per-img{
+	width: 100%;
+	background: #9e9e9e;
+	border: 3px solid #FF1616;
+ border-radius: 5px;
+ margin-bottom: 15px;
+ padding: 5px;
+ transition: 0.8;
+}
+.per-img:hover{
+  box-shadow: 1px 1px 10px #FF1616;
+}
+
+#billionaires{
+	padding: 50px 0px 70px 0px;
+	background: #000000;
+}
+#charity{
+	padding: 50px 0px 70px 0px;
+	background: #333333;
+}
+ .donation{
+ background: #202020;
+	border: 1px solid #FF1616;
+ border-radius: 5px;
+ margin-bottom: 15px;
+}
+#contact{
+	padding: 50px 0px 70px 0px;
+	background: #000000;
+}
+
+form{
+	background: #202020;
+	margin-top: 20px;
+	padding: 10px 25px 30px 25px;
+	border: 1px solid #FF1616;
+	border-radius: 5px;
+}
+.sub-btn{
+    background: #FF1616;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.3s;
+    border-color: #fff;
+    margin-top: 10px;
+    color: #333333;
+    padding: 7px 35px 7px 35px;
+}
+.sub-btn:hover{
+    background: #fff;
+}
+
+#footer{
+	background:  #202020;
+	padding: 50px 0px 50px 0px;
+}
+/*=====section css =====*/
+/*=====section css =====*/
+/*=====section css =====*/
+/*=====section css =====*/
+/*=====section css =====*/
+/*=====section css =====*/
+
+
+
+
+
+/*=====Only Computer extra-large device=====*/
+@media screen and (min-width: 768px)
+{
+ /*===== Start only computer css =====*/
+
+
+}
+
+
+/*===== Mobile, tab and medium & small device =====*/
+@media screen and (max-width: 768px)
+{
+	/*===== start Mobile css =====*/
+ .navbar-div span {
+   font-size: 20px;
+}
+form{
+	background: #202020;
+	margin-top: 20px;
+	padding: 10px 20px 30px 10px;
+	border: 1px solid #FF1616;
+	border-radius: 5px;
+}
+
+
+}
